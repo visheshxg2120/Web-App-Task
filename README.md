@@ -5,9 +5,10 @@
 ## General info
 A simple replica for a given Web page was created as a task for Midas - IIITD.
 
+#### Environment 
 Hardware : MacBook Pro 13-inch, 1.4 GHz Intel quadcore i5 8th gen, 8 GB DDR3
 
-Softwares : macOS Mojave 10.14.6, VS Code, Figma
+Software : macOS Mojave 10.14.6, VS Code, Figma
 
 ## URL to WebApp
 * Click Here : https://visheshxg2120.github.io/WebApp-Task/
