@@ -10,10 +10,10 @@ Hardware : MacBook Pro 13-inch, 1.4 GHz Intel quadcore i5 8th gen, 8 GB DDR3
 Softwares : macOS Mojave 10.14.6, VS Code, Figma
 
 ## URL to WebApp
-* Click Here : 
+* Click Here : https://visheshxg2120.github.io/WebApp-Task/
 	
 ## Technologies
-Project is created with :
+Project is created with the following :
 
 #### Languages
 * HTML5
@@ -25,11 +25,11 @@ Project is created with :
 * Figma
 
 #### Hosting Service
-* 
+* Github Pages
 	
 ## Limitations/Problems encountered
 ##### Dropdown menus in navbar not loading as expected.
-* Can be resolved with rewriting the code for navbar, rectifying CSS or using a Bootstrap navbar instead.
+* Can be resolved with rewriting the code for navbar, adding more specificity through selectors in custom CSS or using a Bootstrap navbar instead.
 
 ##### Bootstrap CSS used for Carousel overriding user's custom CSS leading to font & alignment errors.
 * Can be resolved using higher precedence selectors for a given element so that Bootstrap's CSS is overriden by our custom CSS.
