@@ -33,4 +33,4 @@ Project is created with the following :
 
 ##### Bootstrap CSS used for Carousel overriding user's custom CSS leading to font & alignment errors.
 * Can be resolved using higher precedence selectors for a given element so that Bootstrap's CSS is overriden by our custom CSS.
-* For this task, I used a separate HTML file to just design and use the carousel component through Bootstrap 4, recorded it as a video element and put it in the original web page.
+* For this task, I used a separate HTML file (all included in a separate folder CarouselFiles) to just design and use the carousel component through Bootstrap 4, recorded it as a video element and put it in the original web page.
