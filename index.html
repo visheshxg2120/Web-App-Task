@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+   <head>
+      
+       <!-- Title Head
+       Added the Midas Logo as an icon and name to the head.
+       -->
+       <title>MIDAS Web App Task</title>
+       <link rel="shortcut icon" href="images/unnamed.ico">
+
+       <!-- Bootstrap CSS for Icons
+       Importing the required Bootstrap CDN for icon library
+       -->
+      
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"> 
+
+       <!-- User CSS,JS & Meta Files
+       Importing the required user files for custom CSS and JavaScript
+       -->
+
+       <link rel="stylesheet" href="styles.css">
+       <script src="midas.js" type="text/javascript"></script>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+       <!-- Google Sign In 
+       Importing the Google API OAuth sign in, with the generated Client ID and JS files to load asynchronously
+       -->
+
+       <meta name="google-signin-client_id" content="246056246443-ndh52kd1vgt9d8qlnk02ikb4a42tqahb.apps.googleusercontent.com">
+       <script src="https://apis.google.com/js/platform.js" async defer></script>
+       
+    </head>
+    
+<header>
+
+  <!-- Logo & Name 
+   Adding the Logo and Midas-IIITD heading in the banner/header
+  -->
+
+ <div class="header1">
+    <a href="http://midas.iiitd.edu.in/" target="_blank">
+     <img id="logo" src="images/unnamed.png" alt="">
+    </a>
+    <a id="midas" href="http://midas.iiitd.edu.in/" target="_blank">
+    <h1 id="mid">Midas IIITD</h1>
+    </a>
+
+    <!-- Navigation Bar
+    The following code blocks add all the elements of the Navigation bar using the unordered list
+    tags.
+    -->
+
+   <nav id="navbar1">
+     <ul>
+         <li><a href="#">Home</i></a></li>
+        <li><a href="#">Pages <i class="bi bi-chevron-down"></i></a>
+
+         <!-- Dropdown Menu 
+         Adding a dropdown menu to several elements which require nested links of other resource pages or files. 
+         -->
+
+          <div class="submenu-1">
+            <ul>
+             <li><a href="#">Page 1</a></li>
+             <li><a href="#">Page 2</a></li>
+             <li><a href="#">Page 3</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#">Services <i class="bi bi-chevron-down"></i></a></li>
+        <li><a href="#">Blog <i class="bi bi-chevron-down"></i></a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    
+     <!-- Search & Menu Icons 
+     Adding the search and menu icons to the top right of the webpage with a dropdown searchbar nested into the search icon.
+     -->
+      <ul id="iconmenu">
+        <li><a href="#"><i class="bi bi-search"></i></a>
+          <div class="searchdrop">
+            <ul>
+              <li><input type="text" class="input" placeholder="Search here...">
+              </li>
+            </ul>
+          </div>
+         </li>
+          <li><a href="#"><i class="bi bi-list"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<body>
+
+  <!-- Background Gradient SVG 
+  The gradient background with a waterdop notch like shape created in Figma
+  is imported as SVG component.
+  -->
+
+ <img src="images/Group 8.svg" alt="">
+
+ <!-- Carousel 
+ Image slider carousel imported as a video file.
+ -->
+
+ <div class="carousel">
+   <video preload="auto" src="images/carouselfin.mp4" autoplay muted loop>
+  </video>
+ </div>
+
+
+
+  <!-- Sign Out button 
+  Adding the sign out button which calls the function signOut()
+  -->
+
+  <a href="#" onclick="signOut();">
+    <div class="signout-btn">
+      <img src="images/Group 12.svg" alt="">
+    </div>
+  </a>
+ 
+
+  <!-- WebApp Overlay SVG 
+  The loop like Overlay shape added as SVG component, created using Figma via pen tool and added gradients.
+  -->
+
+  <div class="container">
+    <img id="shape" src="images/Group 5OverlayShape.svg" alt="OverlayShape">
+  </div>
+
+  <!-- Google Sign In -->
+
+      <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+  <!-- Footer Arrow 
+  Arrow functionality added to the downward arrow at the bottom of gradient BG
+  -->
+
+  <a href="#taskdone">
+    <img id="scrlbtn" src="images/Rec5.png" alt="">
+  </a>
+
+  <!-- Final text added as extra element which is visible on scroll -->
+
+  <div id="taskdone">
+     <h1>Task Completed!</h1>
+  </div>
+
+  <!-- Go to YT 
+  Go to YouTube Button created through Figma added as SVG, redirects the user to Midas-IIITD YouTube channel,
+  opens in a new tab. 
+  -->
+  
+  <a href="https://www.youtube.com/channel/UCPgCZNqUo3aaIfwtvXinAXw" target="_blank">
+    <div class="yt-btn">
+      <img src="images/ytbtn2.svg" alt="">
+    </div>
+  </a>
+  
+
+  <!-- End of Body -->
+</body>
+</html>
