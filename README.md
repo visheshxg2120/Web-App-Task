@@ -28,9 +28,9 @@ Project is created with the following :
 * Github Pages
 	
 ## Limitations/Problems encountered
-##### Dropdown menus in navbar not loading as expected.
+#### Dropdown menus in navbar not loading as expected.
 * Can be resolved with rewriting the code for navbar, adding more specificity through selectors in custom CSS or using a Bootstrap navbar instead.
 
-##### Bootstrap CSS used for Carousel overriding user's custom CSS leading to font & alignment errors.
+#### Bootstrap CSS used for Carousel overriding user's custom CSS leading to font & alignment errors.
 * Can be resolved using higher precedence selectors for a given element so that Bootstrap's CSS is overriden by our custom CSS.
 * For this task, I used a separate HTML file (all included in a separate folder CarouselFiles) to just design and use the carousel component through Bootstrap 4, recorded it as a video element and put it in the original web page.
